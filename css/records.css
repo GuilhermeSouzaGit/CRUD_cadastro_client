@@ -11,7 +11,6 @@
     font-size: 1.2rem;    
 }
 .records td{
-    height: 50px;
     padding-left: 20px;
 }
 
@@ -28,6 +27,7 @@
 
 @media(max-width:480px){
     .records{
+        margin-top: 8vh;
         border-spacing: 5px;
     }
     .records thead{
